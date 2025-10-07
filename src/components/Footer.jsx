@@ -2,20 +2,23 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer>
-      <div>
-        <a href="#">
-          <img src="./logo.svg" alt="" />
-        </a>
-      </div>
-      <nav>
-        <a href="">Xizmatlar</a>
-        <a href="">Dorilar</a>
-        <a href="">Asal</a>
-        <a href="">Kontaktlar</a>
-        <a href="">Blog</a>
-      </nav>
-    </footer>
+    <section className=' footer-container '>
+      <footer className="footer container">
+        <div>
+          <a href="#" className='footer-logo'> 
+            <img src="./logo-icon.svg" alt="Logo" />
+            AnsorMed
+          </a>
+        </div>
+        <nav className='footer-nav'>
+          <a className='footer-link' href="">Xizmatlar</a>
+          <a className='footer-link' href="">Dorilar</a>
+          <a className='footer-link' href="">Asal</a>
+          <a className='footer-link' href="">Kontaktlar</a>
+          <a className='footer-link' href="">Blog</a>
+        </nav>
+      </footer>
+    </section>
   )
 }
 
